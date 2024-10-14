@@ -40,11 +40,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans             &trans     &trans        &kp SLASH     &kp ASTERISK  &kp MINUS
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp C_VOLUME_UP    &kp F8     &kp N7        &kp N8        &kp N9        &kp MINUS
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp C_VOLUME_DOWN  &kp AMPS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &kp K_MUTE         &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RETURN
-                                        &trans        &trans        &trans        &trans    &trans  &trans             &kp N0     &kp PERIOD
+&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp C_PREVIOUS     &kp C_PLAY  &kp C_NEXT    &kp SLASH     &kp ASTERISK  &kp MINUS
+&kp F1            &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp C_VOLUME_UP    &kp F8      &kp N7        &kp N8        &kp N9        &kp MINUS
+&kp GRAVE         &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp C_VOLUME_DOWN  &kp AMPS    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
+&kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &kp K_MUTE         &kp MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RETURN
+                                              &trans        &trans        &trans        &trans    &trans  &trans             &kp N0      &kp PERIOD
             >;
         };
 
