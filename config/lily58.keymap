@@ -16,15 +16,15 @@
 
         default_layer {
             // ------------------------------------------------------------------------------------------------------------
-            // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   `   |
-            // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   -   |
-            // |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-            // | SHIFT |  <  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-            //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
+            // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   '   |
+            // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | ENTER |
+            // |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ò   |   à   |
+            // | SHIFT |  <  |  z  |  x   |  c   |  v   |   "["  |  |  "]"  |  b   |  n    |  m    |  ,   |   .   |   -   |
+            //                     | LCTRL| LOWER| LALT |  SPACE |  | ENTER | BKSPC| RAISE | GUI   |
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                         &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp IT_SQUOT
+&kp ESC    &kp N_1        &kp N_2       &kp N_3       &kp N_4       &kp N_5                              &kp N_6        &kp N_7       &kp N_8       &kp N_9       &kp N_0       &kp IT_SQUOT
 &kp TAB    &kp Q          &kp W         &kp E         &kp R         &kp T                                &kp Y          &kp U         &kp I         &kp O         &kp P         &kp MINUS
 &kp LCTRL  &kp A          &kp S         &kp D         &kp F         &kp G                                &kp H          &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
 &kp LSHFT  &kp IT_LESS    &kp Z         &kp X         &kp C         &kp V         &kp LBKT     &kp RBKT  &kp B          &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp IT_MINUS
