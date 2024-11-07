@@ -46,7 +46,7 @@
 &kp F1                &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp C_VOLUME_UP    &kp F8            &kp F9           &kp F10   &kp F11   &kp F12
 &kp GRAVE             &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp C_VOLUME_DOWN  &kp AMPS          &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
 &bt BT_CLR            &trans        &trans        &trans        &trans        &trans        &trans    &trans  &kp K_MUTE         &kp MINUS         &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-                                                  &trans        &trans        &trans        &trans    &trans  &dp DEL            &trans            &trans
+                                                  &trans        &trans        &trans        &trans    &trans  &kp DEL            &trans            &trans
             >;
         };
 
